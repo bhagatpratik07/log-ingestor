@@ -22,19 +22,12 @@ This project provides a log ingestor system and a query interface for efficientl
 
 ## Technologies
 
-- **Elasticsearch:** Integral for efficient indexing and searching of log data. Elasticsearch is used to store logs in a manner that facilitates fast and powerful full-text search capabilities, enhancing the retrieval of relevant information.
-
-- **MongoDB:** The chosen NoSQL database for persistent storage of log data. MongoDB is used to store logs with flexibility, accommodating diverse log structures, and providing a scalable solution for managing large volumes of data.
-
-- **Node.js:** Powering the log ingestor and query interface, Node.js serves as the server-side runtime. It enables the development of scalable and performant applications, handling the logic for receiving logs, serving queries, and managing overall system interactions.
-
-- **Express.js:** Employed as the web application framework for Node.js, Express.js is used to build the HTTP server. It streamlines the creation of robust server-side components, ensuring efficient handling of incoming log data through RESTful endpoints and managing user interactions.
-
-- **@elastic/elasticsearch:** The official Elasticsearch client for Node.js plays a crucial role in interacting with the Elasticsearch engine. It is utilized for actions such as indexing logs into Elasticsearch, executing queries, and facilitating seamless communication between the Node.js application and the Elasticsearch cluster.
-
-- **mongoose:** An elegant MongoDB object modeling tool, mongoose simplifies the interaction with the MongoDB database. It is used to define the schema for log structures, model data, and execute MongoDB queries, ensuring a smooth integration between the application and MongoDB.
-
-- **mongoosastic:** As a middleware for Mongoose, mongoosastic automates the integration between MongoDB and Elasticsearch. It is specifically employed for indexing MongoDB data into Elasticsearch, streamlining the synchronization of log data between the two databases and optimizing search capabilities.
+- **Node.js**
+- **Express.js**
+- **Elasticsearch**
+- **MongoDB**
+- **React.js + Vite**
+- **BullMQ**
 
 ## System Diagram
 
