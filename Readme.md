@@ -29,9 +29,6 @@ This project provides a log ingestor system and a query interface for efficientl
 - **React.js + Vite**
 - **BullMQ**
 
-## System Diagram
-
-![System Diagram](system-img.png)
 
 ## Log Schema
 
